@@ -1,0 +1,4 @@
+2022-01-28 14:35:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "VIDEO_CASSETTE" nie istnieje
+Table "VIDEO_CASSETTE" not found; SQL statement:
+select videocasse0_.id as id1_0_0_, videocasse0_.production_year as producti2_0_0_, videocasse0_.title as title3_0_0_ from video_cassette videocasse0_ where videocasse0_.id=? [42102-200]
